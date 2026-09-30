@@ -1,0 +1,33 @@
+   .custom-font {
+        font-family: 'proxima_nova_regular', arial !important;
+        font-size: 17px !important;
+        color: #fff !important;
+        font-weight: normal !important;
+        text-transform: none  !important;
+      }
+.header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-weight: 500;
+      font-size: 15px;
+      margin: 0px;
+      font-family: 'proxima_nova_regular', arial !important;
+}
+
+.custom-radio-label {
+  font-family: 'proxima_nova_regular', arial !important;
+  font-size: 14px !important;
+  color: #000;
+  font-weight: normal;
+}
+
+.custom-radio {
+  transform: scale(0.8); /* Adjust the scale to change the size */
+}
+
+.tox .tox-statusbar{
+  display: none !important;
+}

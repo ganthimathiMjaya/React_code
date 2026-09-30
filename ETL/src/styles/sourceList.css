@@ -1,0 +1,55 @@
+.contentpanel > h3{
+    color: #000;
+font-size: 16px;
+margin: 0;
+font-weight: bold;
+padding-bottom:5px;
+  }
+  .contentpanel >span{
+    color:#000;
+  }
+  .iconpanel >img{
+    width:20px;
+    display:block;
+  }
+  .cliampanel{
+    display: flex;
+gap: 10px;
+border: 1px solid #ccc;
+max-width: 450px;
+border-radius: 10px;
+flex: 1;
+background: #fff;
+  }
+  .contentpanel{
+    font-size: 15px;
+flex: 1;
+text-align: left;
+padding-top: 20px;
+  }
+  .iconpanel{
+    border-left:1px solid #ccc;
+    width:30px;
+  }
+  .w20{
+    width:20px;
+  }
+  .lasticonsection{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  .gridsection{
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+row-gap: 40px;
+max-width: 90%;
+padding-top: 30px;
+margin: auto;
+column-gap: 40px;
+  }
+  .imagepanel{
+    width:80px;
+  }
+ 

@@ -1,0 +1,16 @@
+
+.chatbox {
+    height: calc(80vh - 50px); 
+    box-sizing: border-box;
+    overflow: auto;
+
+  }
+  
+  .chatboxend {
+    float: left;
+    clear: both;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+
+  

@@ -1,0 +1,19 @@
+.modal-content{
+    margin:10px;
+}
+.customleftside{
+    max-width:80%;
+}
+.customrightside{
+    max-width: 20%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+.subpanel li a{
+    width:120px;
+}
+.container-list {
+    max-height: 500px;
+    overflow-y: auto;
+}

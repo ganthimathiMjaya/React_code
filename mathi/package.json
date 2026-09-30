@@ -1,0 +1,48 @@
+{
+  "name": "my-react-iam",
+  "version": "1.0.5",
+  "description": "A React component using DevExtreme",
+  "main": "dist/index.js",
+  "homepage": "./",
+  "keywords": [
+    "react",
+    "devextreme",
+    "ui",
+    "component"
+  ],
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-syntax-jsx": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "babel-loader": "^8.4.1",
+    "css-loader": "^6.0.0",
+    "devextreme-themebuilder": "24.2.2-beta",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "style-loader": "^3.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "src",
+    "src/assets",
+    "src/styles",
+    "README.md"
+  ],
+  "dependencies": {
+    "devextreme": "^24.1.7",
+    "devextreme-react": "^24.1.7"
+  }
+}

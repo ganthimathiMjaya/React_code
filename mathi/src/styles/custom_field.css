@@ -1,0 +1,1144 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'proxima_nova_regular', arial !important;
+    font-weight: normal;
+    overflow-x: hidden;
+    font-weight: normal;
+    margin: 0px;
+    font-size: 14px;
+    background-color: #ededed !important;
+
+
+}
+
+.customclass {
+    width: 160px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    border-bottom: 1px solid #ccc;
+    padding-right: 20px;
+    padding: 5px;
+}
+
+.apps_image {
+    height: 30px;
+    padding-top: 5px;
+}
+
+.profile_section {
+    display: flex;
+    gap: 10px;
+    color: #000;
+}
+
+.notification {
+    height: 30px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background: #fff;
+    padding: 2px;
+}
+
+.sidepanel {
+    width: 80px;
+    /* background: forestgreen; */
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    background: #f3f3f3;
+    border-right: 1px solid #ccc;
+}
+
+.tabsection {
+    width: 30px;
+    margin: auto;
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.logo_preview {
+    padding-left: 15px;
+    width: 160px;
+}
+
+.sectionpanel {
+    margin-left: 80px;
+}
+
+
+
+.boxpanel {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.customization_breadrumbs>li+li:before {
+    padding: 0 5px;
+    color: #000;
+    content: ">\00a0";
+}
+
+.customization_breadrumbs {
+    padding: 8px 15px;
+    margin-bottom: 0px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.customization_breadrumbs>li>a {
+    color: #000;
+    text-decoration: none;
+}
+
+.userimage {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.notificationbells {
+    position: relative;
+}
+
+.subpanel ul li .active-link {
+    color: white;
+  }
+  
+  .subpanel ul li .active-link img {
+    filter: brightness(0) invert(1); 
+  }
+
+.notifiy_alert {
+    width: 18px;
+    height: 18px;
+    background: #32d679;
+    color: #fff;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 11px;
+    position: absolute;
+    top: 0px;
+    left: 19px;
+}
+
+.submenulist {
+    display: flex;
+    margin: 0;
+}
+.dx-accordion-item-title-caption {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dx-button-mode-contained.dx-button-default {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 8px;
+    right: 17px;
+    background-color: #113e70;
+ }
+
+.data_previewpanel,
+.fieldmappingpanel {
+    height: auto !important;
+}
+
+.subpanel {
+    border-right: 1px solid #ccc;
+    padding-right: 9px;
+    padding: 15px;
+    max-width:200px !important;
+    flex:200px !important;
+}
+
+.subpanel>ul>li {
+    list-style: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.content_section {
+    padding: 15px 0;
+    flex: 1;
+    position: relative;
+    
+    /* width:100%; */
+}
+
+.dataSourceColumn{
+    width: Calc(100vw - 20%);
+}
+.subpanel ul li.active {
+    color: #fff;
+    background-color: #113e70;
+}
+
+.subpanel ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .subpanel li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .subpanel li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .subpanel li a.active {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .flexcustom {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filter-input-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .form-control {
+    padding-right: 30px; /* Add padding to make room for the icon */
+  }
+  
+  .filter-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .filter-builder-container {
+    padding: 15px;
+  }
+.bt_datasource {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: #ff6f07;
+    color: #fff;
+    padding: 5px 21px;
+}
+
+.bt_datasource>img {
+    width: 20px;
+    vertical-align: bottom;
+}
+
+.bt_merge {
+    padding: 5px 21px;
+    background: transparent;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.datalevel {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.contentbox {
+    padding: 10px;
+}
+
+.subpanelimage {
+    width: 20px;
+    vertical-align: bottom;
+}
+
+.popupwindow {
+    max-width: 90%;
+    padding-top: 80px;
+}
+
+.table_field {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.btn_column {
+    background-color: #113e70;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.custombox {
+    display: flex;
+    gap: 15px;
+}
+
+.rounded-switch .dx-switch-container {
+    border-radius: 25px !important;
+}
+
+.rounded-switch .dx-switch-handle {
+    border-radius: 50% !important;
+}
+
+.rounded-switch.dx-state-on .dx-switch-container {
+    background-color: #4caf50;
+}
+
+.rounded-switch.dx-state-off .dx-switch-container {
+    background-color: #f44336;
+}
+
+.filter-input-container {
+    margin-left: -6%;  
+  }
+
+.dx-switch-handle::before {
+    display: block;
+    content: " ";
+    width: 102%;
+    height: 100%;
+    background-color: #63a0d4;
+    border-radius: 20px;
+}
+
+.custombox .btn_column {
+    color: white;
+}
+
+.custombox .btn_column:hover {
+    color: white;
+}
+
+.padd-none {
+    padding: 0;
+}
+
+.tablebox {
+    border:1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left:10px;
+}
+
+.tablebox>table>thead>tr {
+    background: #f4f4f4;
+    color: #000;
+}
+
+.filtername {
+    width: 220px;
+}
+
+.Distinctname {
+    width: 180px;
+}
+
+.flexcustom {
+    display: flex;
+    margin-top: 15px;
+    position: relative;
+}
+
+.table_field>table>thead>tr {
+    background: #f4f4f4;
+    color: #000;
+}
+
+.btcsv {
+    /* padding: 5px 30px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.btExcel {
+    /* padding: 5px 30px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #113e70;
+    color: #fff;
+}
+
+.btscv, .btExcel, .btInternal {
+    /* padding: 5px 30px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    color: black;
+}
+
+.btscv.active, .btExcel.active, .btInternal.active {
+    background: #113e70;
+    color: white;
+}
+/* Hover effect */
+.btscv:hover, .btExcel:hover, .btInternal:hover {
+    background: #113e70; /* Blue background on hover */
+    color: white; /* White text on hover */
+}
+
+.datasource_panel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.datasource_panel>.modal-title {
+    font-size: 16px;
+    color: #000;
+    width: 540px;
+    font-weight: bold;
+}
+
+.btnsave {
+    /* width: 90px; */
+    background: #113e70;
+    color: #fff;
+}
+
+.btnsave:hover {
+    background: #113e70;
+    color: #fff;
+}
+
+.btncancel {
+    width: 90px;
+    background: transparent;
+    color: #000;
+    border: 2px solid #889fb7;
+}
+
+.tickmark {
+    width: 30px;
+}
+
+.table>thead>tr>th {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+.dx-popup-wrapper>.dx-overlay-content{
+    top:-17px !important;
+}
+/*toggle button*/
+.filter-checkbox {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-checkbox input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.filter-checkbox input[type=checkbox]+.label-hidden {
+    cursor: pointer;
+    width: 60px;
+    height: 24px;
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    display: inline-block;
+    border-radius: 100px;
+    position: relative;
+    margin: 0px;
+}
+
+.filter-checkbox input[type=checkbox]+.label-hidden:after {
+    content: '';
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    background-color: #113e70;
+    border-radius: 90px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.filter-checkbox input[type=checkbox]:checked+.label-hidden:after {
+    background-color: #113e70;
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+}
+
+.filter-checkbox .label-displayed {
+    color: #37444e;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.filter-checkbox .first-label {
+    order: -1;
+}
+
+.custom-switch {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.custom-switch input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.custom-switch input[type=checkbox]+.label-hidden {
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    background-color: #d4d4d4;
+    border: 0;
+    display: inline-block;
+    border-radius: 100px;
+    position: relative;
+    margin: 0px;
+    transition: all 0.3s;
+}
+
+.custom-switch input[type=checkbox]+.label-hidden:after {
+    content: '';
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    padding: 0px;
+    background-color: #fff;
+    border-radius: 90px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.custom-switch input[type=checkbox]:checked+.label-hidden {
+    background-color: #8fbd67;
+}
+
+.custom-switch input[type=checkbox]:checked+.label-hidden:after {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+}
+
+.custom-switch .label-displayed {
+    color: #37444e;
+}
+
+/*data refresh Purege*/
+
+.filtercheckpanel {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtercheckpanel input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.filtercheckpanel input[type=checkbox]+.label-hidden {
+    cursor: pointer;
+    width: 60px;
+    height: 24px;
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    display: inline-block;
+    border-radius: 100px;
+    position: relative;
+    margin: 0px;
+}
+
+.filtercheckpanel input[type=checkbox]+.label-hidden:after {
+    content: '';
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    background-color: #113e70;
+    border-radius: 90px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.filtercheckpanel input[type=checkbox]:checked+.label-hidden:after {
+    background-color: #113e70;
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+}
+
+.filtercheckpanel .label-displayed {
+    color: #37444e;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.filtercheckpanel .first-label {
+    order: -1;
+}
+
+
+/*Frequency*/
+
+.frequencypanel {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.frequencypanel input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.frequencypanel input[type=checkbox]+.label-hidden {
+    cursor: pointer;
+    width: 60px;
+    height: 24px;
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    display: inline-block;
+    border-radius: 100px;
+    position: relative;
+    margin: 0px;
+}
+
+.frequencypanel input[type=checkbox]+.label-hidden:after {
+    content: '';
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    background-color: #113e70;
+    border-radius: 90px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.frequencypanel input[type=checkbox]:checked+.label-hidden:after {
+    background-color: #113e70;
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+}
+
+.frequencypanel .label-displayed {
+    color: #37444e;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.frequencypanel .first-label {
+    order: -1;
+}
+
+
+
+
+
+
+
+/*add column popup*/
+.flexable_box {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.column_box,
+.Function_box {
+    flex: 1;
+}
+
+.primarybox,
+.functionbox {
+    /* border: 1px solid #ccc; */
+    height: 150px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.condtion_check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-label {
+    margin-right: auto;
+    /* Keeps the label on the left */
+}
+
+/*menu filter*/
+.menu_filter {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 25px;
+}
+
+.filtereditor>h4 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.append_content>h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.datasource_field {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.datasource_field>label {
+    width: 200px;
+}
+
+.content_label {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+}
+
+.tagged_field {
+    background: #d3d3d3;
+    padding: 3px 10px;
+    border-radius: 9px;
+    color: #000;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.btaddpanel {
+    margin-left: 27%;
+    display: block;
+}
+
+.btaddpanel:hover {
+    background-color: #113e70;
+    color: #fff;
+}
+
+.selected_Datasource>label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.datasource_tablefield>thead>tr {
+    background-color: #ededed;
+}
+
+.datasource_tablefield>thead>tr>th:first-child,
+.datasource_tablefield>tbody>tr>td:first-child {
+    width: 200px;
+}
+
+.button_alignedright {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.colblack {
+    color: #000;
+}
+
+.data-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    border: none;
+    background: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.footer-buttons {
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+    /* Space between Cancel and Ok buttons */
+}
+
+.dx-popup-content {
+    -webkit-user-drag: none;
+    padding: 20px;
+}
+
+/*field Mapping*/
+
+.content {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-attachment: fixed;
+    color: #fff;
+    overflow:auto;
+    height: calc(100vh - 150px);
+    text-align: center;
+}
+.connection-content{
+    text-align: left;
+}
+.acc {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.acc__card {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 70%;
+}
+
+.acc__title {
+    color: #212121;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    padding: 5px;
+    position: relative;
+    text-align: left;
+}
+
+.acc__title::after {
+    width: 8px;
+    height: 8px;
+    border-right: 1px solid #4a6e78;
+    border-bottom: 1px solid #4a6e78;
+    position: absolute;
+    right: 10px;
+    content: " ";
+    top: 10px;
+    transform: rotate(-45deg);
+    transition: all 0.2s ease-in-out;
+}
+
+.acc__title.active::after {
+    transform: rotate(45deg);
+    transition: all 0.2s ease-in-out;
+}
+
+.acc__panel {
+    background: #fff;
+    color: #212121;
+    display: none;
+    margin: 0;
+    text-align: left;
+}
+
+.accordated {
+    margin: 0 !important;
+}
+
+.tick_image {
+    width: 25px;
+}
+
+.fieldmappingSelect {
+    width: 200px;
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #ccc;
+}
+
+.encounter_tables {
+    border-top: 1px solid #ccc;
+    margin: 5px;
+}
+
+.encounter_tables>tbody>tr>td {
+    padding: 4px;
+}
+
+.footerlevel {
+    position: absolute;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.footerbutton {
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.fieldmapping_title {
+    flex: 1;
+    margin: 0;
+    font-size: 16px;
+    color: #000;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+/*Data Preview*/
+.datapreview_card,
+.datapreview_fullpanel {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+}
+
+.Insurance_panel {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/*Charge*/
+.charge_Card {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+}
+
+.charge_panel {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.footersection {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Connection*/
+.info_modeinput {
+    display: flex;
+    width: 100%;
+    color: #000;
+    margin-top: 20px;
+}
+
+.info_modeinput>label {
+    width: 200px;
+    padding-top:10px;
+}
+
+.info_modeinput>select {
+    width: 250px;
+}
+
+.table {
+    color: #000;
+}
+
+.excelpanel {
+    display: flex;
+    gap: 10px;
+}
+
+.middlealign {
+    vertical-align: middle !important;
+}
+
+.middlealign>input {
+    width: 60%;
+}
+
+.claimpanel>h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.claimpanel>span {
+    text-align: left;
+    display: block;
+    padding-top: 5px;
+}
+
+.bordebox {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 34px;
+    text-align: left;
+    padding: 6px 12px;
+}
+
+.exceltable {
+    max-width: 75%;
+    margin-left: 3%;
+}
+
+.exceltable {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+.exceltable>table>thead>tr>th:nth-child(2),
+.exceltable>table>tbody>tr>td:nth-child(2) {
+    background-color: #f7f7f7;
+    padding: 15px;
+}
+
+.exceltable>table {
+    margin-bottom: 0px;
+}
+
+/*Data Refresh*/
+.datarefresh_panel {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.datarefresh_panel>label {
+    width: 150px;
+}
+
+.btns_addtion {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #000;
+    width: 80px;
+    padding: 4px;
+    font-size: 14px;
+}
+#divSchduleDays .timerpanelnew label {
+    padding: 5px;
+    font-size: 14px;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #ddd;
+    color: #333;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Active state styling */
+  #divSchduleDays .timerpanelnew label.active {
+    background-color: #113e70; /* Blue background when active */
+    color: white; /* White text when active */
+    border-color: #113e70; /* Blue border when active */
+  }
+
+  
+  /* Focused state (optional, for accessibility and keyboard navigation) */
+  #divSchduleDays .timerpanelnew label:focus {
+    outline: none;
+    background-color: #bbb;
+    color: #fff;
+  }
+
+.timerpanel {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.timerpanel>label {
+    border: 1px solid #ccc;
+    padding: 4px 12px;
+    border-radius: 5px;
+    margin:0;
+}
+
+.timerpanel>select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px 13px;
+    margin: 0;
+    height: 30px;
+}
+
+.timerpanel>img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.datarefresh_content {
+    margin-left: 170px;
+    margin-top: 30px;
+}

@@ -1,0 +1,100 @@
+{
+  "name": "react-etl",
+  "version": "0.0.1",
+  "private": false,
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "type": "module",
+  "keywords": [
+    "react",
+    "components",
+    "etl",
+    "npm-package"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "rollup -c",
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "browser": {
+    "stream": "stream-browserify",
+    "path": "path-browserify",
+    "http": "stream-http",
+    "https": "https-browserify",
+    "fs": false,
+    "tty": "tty-browserify",
+    "zlib": "browserify-zlib"
+  },
+  "dependencies": {
+    "@devextreme/runtime": "^3.0.13",
+    "@types/rrule": "^2.1.7",
+    "axios": "^1.7.7",
+    "devextreme": "^24.1.7",
+    "devextreme-react": "^24.1.7",
+    "path-browserify": "^1.0.1",
+    "react": "^17.0.2 || ^18.0.0",
+    "react-dom": "^17.0.2 || ^18.0.0",
+    "rrule": "^2.8.1"
+  },
+  "peerDependencies": {
+    "@devextreme/runtime": "^3.0.13",
+    "devextreme": "^24.1.7",
+    "devextreme-react": "^24.1.7",
+    "react": "^17.0.2 || ^18.0.0",
+    "react-dom": "^17.0.2 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/runtime": "^7.26.0",
+    "@rollup/plugin-alias": "^5.1.1",
+    "@rollup/plugin-auto-install": "^3.0.5",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-image": "^3.0.3",
+    "@rollup/plugin-inject": "^5.0.5",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@rollup/plugin-url": "^8.0.2",
+    "@svgr/rollup": "^8.1.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "devextreme-cli": "^1.7.1",
+    "rollup": "^4.27.4",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "style-loader": "^4.0.0",
+    "terser-webpack-plugin": "^5.3.10",
+    "typescript": "^5.4.5",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  }
+}

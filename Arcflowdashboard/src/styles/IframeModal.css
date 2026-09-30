@@ -1,0 +1,35 @@
+.iframe-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .iframe-modal-content {
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+   
+  .iframe-close-button {
+    position: absolute;
+    top: 0px;
+    right: 11px;
+    font-size: 37px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    z-index: 1;
+    color: crimson;
+    font-weight: bold;
+  }

@@ -1,0 +1,29 @@
+/* .chatbox{
+    height:80vh;
+    overflow: auto;
+}
+
+.chatboxend{
+    overflow-y: auto;
+    scroll-behavior: smooth;
+} */
+
+.chatbox {
+    height: calc(80vh - 50px); 
+    box-sizing: border-box;
+    overflow: auto;
+
+  }
+  
+  .chatboxend {
+    float: left;
+    clear: both;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+
+  .dx-popup-draggable .dx-popup-title {
+    cursor: move;
+    touch-action: pinch-zoom;
+    background-color: rgb(240, 240, 240);
+}

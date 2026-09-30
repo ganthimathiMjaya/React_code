@@ -1,0 +1,585 @@
+.overallchart {
+
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.chartproduction {
+  flex: 40%;
+  max-width: 40%;
+}
+
+.chartquality {
+  flex: 1;
+}
+
+.chartworkplace {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.chartshortcuts {
+  max-width: 15%;
+  background: #fff;
+  flex: 15%;
+  border-radius: 10px;
+}
+
+.cproductionheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+.cproductionheader>h4 {
+  margin: 0;
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+}
+
+.linchartimage {
+  height: 425px !important;
+}
+
+.chartsdp {
+  background: #edf4fb;
+  color: #000;
+  padding: 4px 12px;
+  border-radius: 27px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 2px 0 10px 0;
+  display: block;
+}
+
+.chartimage {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.chartdays {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.chartweeks {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 1px;
+}
+
+.chartduration {
+
+  width: 120px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.chartduration.active {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #edf4fb;
+  width: 120px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.chartcardbox {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+
+}
+
+.charttimeline {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  padding: 10px;
+}
+
+.chatqualitybox {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.defectchart {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.workplacebox_workspace {
+  /* display: flex;*/
+  gap: 10px;
+  margin-bottom: 10px;
+  width:100%;
+
+}
+
+.workplacebox>.workplacecontent {
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+  flex:1;
+}
+
+.workplacebox>.workplacecontent:last-child {
+  border-right: none;
+}
+
+.chartworkplacecard {
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.chartcardshortcut {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 78vh;
+}
+
+.chartattendencepanel {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+  height: 31vh;
+}
+
+.chartattendeceprogresbar {
+  display: flex;
+  align-items: center;
+  margin-bottom:15px;
+  padding: 10px;
+}
+
+.chartattendenceprogressvalue {
+  width: 50%;
+  text-align: left;
+}
+.chartattendenceprogressvalue >h3 >b{
+  font-size:3vw !important;
+}
+
+.chartprogressbar {
+  width: 160px;
+  background-color: #da7f81;
+}
+
+.chartprogressbar .progress-bar {
+  background-color: #da7f81;
+}
+
+.chartmail {
+  width: 75px;
+  margin: auto;
+  display: block;
+}
+
+.chartprogressbargreen {
+  background-color: #84ce9b;
+  width: 160px;
+}
+
+.chartprogressbargreen .progress-bar {
+  background-color: #84ce9b;
+
+}
+
+.chartnotificationbox {
+  margin-bottom: 45px;
+}
+
+.chartnotificationbox>span {
+  display: block;
+  font-size: 13px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.chartimelevel {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  height:calc(100vh - 90vh);
+}
+
+.charttimeline>h4 {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+}
+
+.chartworkplacecard>h4 {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+}
+
+.defectchart>h4 {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+}
+
+.chartimebox {
+  border-right: 1px solid #ccc;
+  padding-right: 14px;
+}
+
+.chartimebox:last-child {
+  border-right: none;
+}
+
+.chartattendenceprogressvalue>h3 {
+  margin-top: 0px;
+  font-size: 25px;
+
+}
+
+.chartattendenceprogressvalue>span {
+  font-size:1vw;
+  font-weight: bold;
+  color: #000;
+}
+.attendence_leftside >h3{
+  font-size:3vw !important;
+}
+
+.chartborderless {
+  border: none !important;
+  background: transparent !important;
+}
+
+@media (max-width: 768px) {
+  .flexbox {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .chartthreepanel {
+      flex-direction: column;
+  }
+
+  .chartproduction,
+  .chartquality,
+  .chartworkplace {
+      margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width:1280px) and (max-width:1400px){
+
+ 
+  .chartcardbox.attendence{
+      height: calc(100% - 60.5%) !important;
+  }
+  .chartcardbox.quality{
+      height:auto;
+  } 
+  .chartfourpanel{
+      height:90vh;
+  }
+  div#test{
+      height: calc(45vh) !important;
+  }
+  .chartcardbox.shortcuts {
+      height: calc(100vh - 65px) !important;
+  }
+  
+ 
+  .chartattendenceprogressvalue >h3 >b{
+      font-size: 23px !important;
+  }
+  
+
+}
+
+@media only screen and (min-width:1700px) and (max-width:1920px) {
+
+  .chartduration>h5 {
+      font-size: 20px;
+  }
+
+  .chartduration {
+      font-size: 30px;
+      font-weight: bold;
+
+  }
+
+
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.d_header_section {
+  display: flex;
+  justify-content: space-between;
+}
+.d_header_section >h4{
+  font-size:1vw;
+}
+.chartcardbox time >h4{
+  font-size:1vw;
+}
+.shortcut_menu >div{
+  font-size:1vw;
+}
+
+.chartfourpanel {
+  display: flex;
+  gap: 10px;
+
+}
+
+.chartcardbox {
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+}
+
+.box1 {
+  width: 35%;
+}
+
+.box2,
+.box3 {
+  width: 27%;
+}
+
+.box4 {
+  width: 7%
+}
+
+
+.shortcut_iconbg {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #edf4fb;
+  width: 66%;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.shortcut_menu {
+  margin: 0px 0px 30px;
+}
+
+.workplacecontent h4 {
+  font-size: 26px;
+}
+
+.chartduration span {
+  font-size: 30px !important;
+  font-weight: bold;
+}
+
+.workplacecontent h4 {
+  text-align: center;
+}
+.chartimebox >h5{
+  font-size:1vw;
+}
+.chartimebox span {
+  font-size:0.8vw;
+}
+
+/* Animate the progress bar */
+.progress-bar {
+  transition: width 1s ease-in-out;
+  /* Smooth animation */
+}
+
+.dx-visibility-change-handler2{ margin-top: 34px !important;}
+
+.no-mar {
+  margin-top: 22px !important;
+}
+
+.chartattendenceprogressvalue h3 {
+  
+  margin-bottom: 4px ;
+}
+.attendence_leftside h3{margin-bottom: 4px ; font-weight: bold;font-size: 2vw;}
+.attendence_leftside span{ font-weight: bold;}
+.chartattendenceprogressvalue>span{ font-size:1vw !important;}
+.overallchart {
+  margin-left: 14px !important;
+}
+/*last custom code*/
+/* .chartcardbox.production{height:calc(100vh/1.4)} */
+.chartcardbox.time{height:calc(100vh/6);}
+/* .chartcardbox.quality {
+  height: calc(100vh/2.2);
+} */
+.chartcardbox.workplace{
+  height:calc(100vh / 4.8);
+}
+.chartcardbox.attendence{
+  height: calc(100% - 60%);
+}
+.chartcardbox.quality{
+  height: calc(100% - 51%);
+}
+.chartcardbox.shortcuts{
+  height: calc(100vh - 60px);
+}
+/* .chartcardbox.Testscore{
+  height:calc(100vh / 2.7);
+} */
+/* .chartcardbox.shortcuts{
+  height:calc(100vh / 1.1); 
+} */
+
+
+
+
+.Attendance-progress-container {
+  width: 100%; /* Full-width container */
+  background-color: #e0e0e0; /* Light gray for background */
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Ensure content doesn't overflow */
+ 
+}
+
+/* Progress Bar Styles */
+.Attendance-progress-bar {
+  height: 100%; /* Full height */
+  transition: width 0.3s ease; /* Smooth width transition */
+}
+
+.progress_success {
+  background-color:#1fbd72;
+  height:10px; /* Adjust height as needed */
+}
+
+.progress_warning {
+  background-color:#fdd309;
+  height:10px; /* Adjust height as needed */
+}
+
+.progress_danger {
+  background-color:#dd2a26;
+  height:10px; /* Adjust height as needed */
+}
+.infoattendpanel{
+  display: flex;
+  align-items: center;
+}
+.attendence_leftside{
+  flex: 50%;
+    max-width: 50%;
+    padding-left: 10px;
+}
+.attendence_rightside{
+  flex: 50%;
+    max-width: 50%;
+}
+.attendence_leftside >h3{
+text-align:left;
+display:block;
+font-size:25px;
+}  
+.attendence_leftside >span{
+  text-align: left;
+  margin:auto;
+  display:block;
+  font-size:1vw;
+}
+.workplacecontent >span{
+  font-size:1vw;
+}
+.notification-badge {
+  position: relative;
+  top: 9px; /* Slightly move it above the icon */
+  right: -60px; /* Slightly move it to the right */
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.chartcardbox h4 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  font-weight: bold !important;
+  text-align:center;
+}
+
+.chartcardbox .d_header_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chartcardbox .d_header_section>h4 {
+  font-size: 1vw;
+}
+
+.chartcardbox time>h4 {
+  font-size: 1vw;
+}
+
+.chartcardbox .shortcut_menu>div {
+  font-size: 1vw;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
